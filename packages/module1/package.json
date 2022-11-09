@@ -1,0 +1,22 @@
+{
+  "name": "module1",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "NinesunLuang <NinesunLuang@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/module1.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/module1.test.js"
+  }
+}
